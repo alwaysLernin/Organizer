@@ -1,0 +1,36 @@
+body {
+    background-image: url("asu-stadium.png");
+    background-size: cover;
+}
+
+.myOrganizerContainer {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-gap: 10px;
+}
+
+.gridBox {
+    background: rgba(140,29,64,.85);
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.15em;
+    padding: 5px;
+    height: minmax(100px, 300px);
+}
+
+.appTitle {
+    position: relative; 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(140,29,64);
+    color: rgb(255, 198, 39);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.divHeader {
+    color:rgb(140,29,64);
+    background-color: rgb(255, 198, 39);
+    font-family: 'Archivo Black', sans-serif;
+    border: black, 4px, solid;
+}
